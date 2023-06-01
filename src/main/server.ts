@@ -1,3 +1,4 @@
+import 'module-alias/register'
 import env from './config/env'
 
 const bootstrap = async (): Promise<void> => {

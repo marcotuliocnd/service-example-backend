@@ -1,0 +1,22 @@
+{
+  "debug.node.autoAttach": "on",
+  "editor.rulers": [120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.enable": true,
+  "files.exclude": {
+    "**/node_modules": true,
+  },
+  "prettier.useEditorConfig": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
